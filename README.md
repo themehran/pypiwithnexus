@@ -20,11 +20,14 @@ pip3 install  --trusted-host 192.168.1.10 -i http://192.168.1.10:8080/Repository
 ## set PIP repository system wide
 
 The private PyPi repository settings can also be defined in /etc/pip.conf, for example:
-
 [global]
+
 index-url = http://192.168.1.10:8080/repository/pypi/simple
+
 trusted-host = 192.168.1.10
+
 #cert = /etc/pki/ca-trust/source/ca-bundle.crt
+
 
 
 
