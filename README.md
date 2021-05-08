@@ -1,6 +1,6 @@
 # pypywithnexus
-## How to Use PyPi repos for PIP installation in Local Network
-
+## Access online PyPi repos for PIP installation in Local Network
+### using Sonatype Nexus Repository Manager 
 
 if you want to access and install PyPi packages with PIP on systems witout internet or airgapped
 you could install Nexus and setup a PyPi Proxy so all of your machines could access and install packages woitout any internet connection 
