@@ -1,4 +1,4 @@
-# pypywithnexus
+# pypi with nexus
 ## Access online PyPi repos for PIP installation in Local Network
 ### using Sonatype Nexus Repository Manager 
 
