@@ -15,4 +15,8 @@ EX : in my SetUp Repo Address is  : 192.168.1.10 and serverd over HTTP Port 8080
 i hace PyPi repository named : pypi-proxy
 
 
-pip3 install  --trusted-host 192.168.1.10 -i http://192.168.1.10:8080/Repository/pypi-proxy/pypi-all/simple -v cx_Oracle
+pip3 install  --trusted-host 192.168.1.10 -i http://192.168.1.10:8080/Repository/pypi-proxy/simple -v cx_Oracle
+
+
+The private PyPi repository settings can also be defined in /etc/pip.conf, for example:
+
